@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Pham Ngoc Quang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Pham Ngoc Quang</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="work-grid">
+                <div class="work-item" data-details="Reengineering Sales Data Entry|Detailed process: Implemented AI-powered OCR to extract data from invoices, reducing manual entry by 80%. Integrated with ERP system for real-time updates.|Enhanced costs by 20% and halved processing time with AI-powered automation.">
+                    <img src="images/project-sales-reengineering.jpg" alt="Sales Reengineering">
+                    <h3>Reengineering Sales Data Entry</h3>
+                    <p>Enhanced costs by 20% and halved processing time with AI-powered automation.</p>
+                    <button class="btn btn-secondary">View Details</button>
+                </div>
+                <div class="work-item" data-details="HR Management Optimization|Detailed process: Designed automated workflows in Lark for onboarding, leave requests, and performance reviews.|Create HR workflows with Lark, boosting team productivity.">
+                    <img src="images/project-hr-optimization.jpg" alt="HR Optimization">
+                    <h3>HR Management Optimization</h3>
+                    <p>Create HR workflows with Lark, boosting team productivity.</p>
+                    <button class="btn btn-secondary">View Details</button>
+                </div>
+                <div class="work-item" data-details="Digital Expansion Campaign|Detailed process: Built a digital platform to connect partners, ran targeted LinkedIn campaigns, and tracked KPIs with analytics tools.|Strengthen strategic partnerships and expand business opportunities.">
+                    <img src="images/DoitackimcuongIDP.jpg" alt="Digital Transformation & Expansion Campaign">
+                    <h3>Digital Expansion Campaign</h3>
+                    <p>Strengthen strategic partnerships and expand business opportunities.</p>
+                    <button class="btn btn-secondary">View Details</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <h2>Contact me:</h2>
+            <p>Email: <a href="mailto:quang.phamvt1002@gmail.com">quang.phamvt1002@gmail.com</a></p>
+            <p>Phone: (+84) 925120370</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/quangphamngoc/">LinkedIn</a>
+        </div>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">×</span>
+            <img class="modal-image" src="" alt="">
+            <h2 class="modal-title"></h2>
+            <p class="modal-process"></p>
+            <p class="modal-description"></p>
+        </div>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
