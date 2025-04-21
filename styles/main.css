@@ -223,8 +223,8 @@ nav ul li a.active, nav ul li a:hover {
 /* Projects */
 .work-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
     padding: 0 10px;
 }
 
@@ -315,7 +315,7 @@ footer {
     background: linear-gradient(135deg, #333, #555);
     color: white;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     margin-top: 40px;
     max-width: 1200px;
     margin-left: auto;
